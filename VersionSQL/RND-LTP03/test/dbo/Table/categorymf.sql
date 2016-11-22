@@ -6,6 +6,7 @@ CREATE TABLE [dbo].[categorymf](
 	[Category Type] [nvarchar](255) NULL,
 	[Category] [nvarchar](255) NULL,
 	[MF] [float] NULL,
-	[name] [varchar](1) NULL
+	[name] [varchar](1) NULL,
+	[id] [int] NULL
 ) ON [PRIMARY]
 
